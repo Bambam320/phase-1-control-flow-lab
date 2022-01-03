@@ -1,5 +1,7 @@
-function scuberGreetingForFeet(){
-  // Write your code here!
+function scuberGreetingForFeet(distance){
+
+  if (distance < 400) { return 'This one is one me!';
+}
 }
 
 function ternaryCheckCity(){
@@ -9,3 +11,5 @@ function ternaryCheckCity(){
 function switchOnCharmFromTip(){
   // Write your code here!
 }
+
+scuberGreetingForFeet(350);
